@@ -1,0 +1,86 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    color: steelblue;
+    font-weight: 700;
+}
+
+.s500 {
+    min-height: 500px;
+    margin: 73px 0px 0px 0px;
+}
+
+.s300 {
+    min-height: 300px;
+    margin: 73px 0px 0px 0px;
+}
+
+.s300e {
+  min-height: 300px;
+  margin: 73px 0px 0px 0px;
+}
+
+.bsec{
+    background-color:rgb(27, 32, 37);
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+  }
+
+  #menu-principal a:hover{color:steelblue}
+
+  .fontenav{
+    font: 'Dosis';
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .img1{
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    margin: 100px 0px 0px 0px;
+    width: 400px;
+    height: 500px;
+  }
+
+  .img2{
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    margin: 75px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .img3{
+    background-image: url(../images/img3.png);
+    background-repeat: no-repeat;
+    margin: 75px 0px 0px 0px;
+    width: 300px;
+    height: 500px;
+  }
+
+.colorpink{
+  font-size: 24px;
+  color: rgb(252, 186, 208);
+}
+
+.colorwhite{
+  font-size: 22px;
+  color: white;
+}
+
+.rosa{
+  color:rgb(252, 186, 208);
+}

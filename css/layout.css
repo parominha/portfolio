@@ -1,0 +1,358 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w33 {
+    width: 33.3%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w16 {
+    width: 16.65%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+/*alinhamento*/
+.tleft{
+    text-align: left;
+}
+
+.tjustify{
+    text-align: center;
+}
+
+.tcenter{
+    text-align: center;
+}
+
+.tright{
+    text-align: right;
+}
+/*alinhamento*/
+
+/*espaçamentos*/
+.pd5{
+    padding: 5px;
+}
+
+.pd15{
+    padding: 15px;
+}
+
+.pd01000{
+    padding: 0px 10px 0px 0px;
+}
+
+.m00400{
+    margin: 0px 0px 40px 0px;
+}
+
+.m01000{
+    margin: 0px 10px 0px 0px;
+}
+
+.m010200{
+    margin: 0px 10px 20px 0px;
+}
+
+.m15000{
+    margin: 15px 0px 0px 0px;
+}
+
+.mg5{
+    margin: 5px;
+}
+
+.mgt10{
+    margin-top: 10px;
+}
+
+.mgt20{
+    margin-top: 20px;
+}
+
+.mgt25{
+    margin-top: 25px;
+}
+
+.mgt30{
+    margin-top: 30px;
+}
+
+.mgt50{
+    margin-top: 50px;
+}
+
+.mgt70{
+    margin-top: 70px;
+}
+
+.mg15{
+    margin: 15px;
+}
+
+.mgt74{
+    margin-top: 74px;
+}
+
+.mgt75{
+    margin-top: 75px;
+}
+
+.mgt73{
+    margin-top: 73px;
+}
+
+.mgb20{
+    margin-bottom: 20px;
+}
+
+.mgb25{
+    margin-bottom: 25px;
+}
+
+.mgb30{
+    margin-bottom: 30px;
+}
+
+.mgb50{
+    margin-bottom: 50px;
+}
+
+/*espaçamentos*/
+
+nav.menu {}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu.horizontal ul li {
+    display: inline-block;
+}
+
+nav.menu.vertical ul li {
+    display: block;
+}
+
+.menu-fixo{
+    background: black;
+    padding: 15px 0px;
+    position: fixed;
+  }
+
+  .superior{top: 0px;}
+  .inferior{bottom: 0px;}
+  .esquerda{left: 0px;}
+  .direita{right: 0px;}
+
+  @media (max-width: 576px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #sobre-mim-mb{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 220px;  
+    }
+
+    #escolaridade-mb{
+        width: 100%;
+        text-align: center;
+        margin-top: 220px;  
+    }
+
+    #escolaridade-mb-img, #sobre-mim-mb-img, #recursos-tecnicos-mb-img{
+        background-image: none;
+        margin: 0px 0px 0px 0px;
+        width: 0px;
+        height: 0px;
+      }
+       
+
+    #recursos-tecnicos-mb{
+        width: 100%;
+        text-align: center;
+        margin-top: 220px; 
+    }
+
+    #trabalhos-mb{
+        margin-top: 220px;
+    }
+
+    #redes-sociais-mb{
+        width: 65%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 220px; 
+    }
+
+    #fale-comigo-mb{
+        margin-top: 220px;
+        display: none;
+      
+    }
+
+    #form-name-mb, #form-email-mb, #form-msg-mb{
+        font-size: 20px;
+    }
+
+    #form-name-mb-sq, #form-email-mb-sq{
+        width:50%;
+        height:28px;    
+    }
+
+    #form-msg-mb-sq{
+        width: 100%;
+    }
+
+    #menu-mb1, #menu-mb2, #menu-mb2 li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-mb2, #menu-mb2 li{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #msg{
+        font-size: 18px;
+    }
+
+
+    #rodape-mb{
+        width: 100%;
+    }
+
+    #fale-comigo-a{
+        <div>
+                            <div id="form-name-mb" class="w20 fleft">
+                                <label for="name">Nome:</label>
+                            </div>
+                            <div class="w80 fright">
+                                <input id="form-name-mb-sq" type="text" name="name" id="name"
+                                    placeholder="Digite seu nome" required />
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div>
+                            <div id="form-email-mb" class="w20 fleft">
+                                <label for="email">E-mail:</label>
+                            </div>
+                            <div class="w80 fright">
+                                <input id="form-email-mb-sq" type="email" name="email" id="email"
+                                    placeholder="Digite seu e-mail" required autocomplete="off" />
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div>
+                           <div id="form-msg-mb" class="w20 fleft">
+                                <label id="msg" for="mensagem">Mensagem:</label>
+                            </div>
+                            <div class="w80 fright">
+                                <textarea id="form-msg-mb-sq" style="width:300px; height:150px; resize: none;"
+                                    id="mensagem" name="mensagem" required placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                         <div id="botao-mb">
+                            <div style="margin: 0px 0px 0px 140px">
+                                <button id="botao" style="width:305px; height:40px;" type="submit">Enviar</button>
+                            </div> 
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                    <div id="redes-sociais-mb" class="w30 fright">
+                        <div class="tleft mgt25">
+                            <a target="_blank" href="https://www.linkedin.com/in/paloma-azevedo-413268192/"
+                                title="LinkedIn"
+                                style="font-size: 30px; text-decoration: none; color:rgb(252, 186, 208)">
+                                <i class="fa fa-linkedin-square m010200" aria-hidden="true"></i>LinkedIn
+                            </a>
+                        </div>
+                        <div class="tleft mgt25 links">
+                            <a target="_blank" href="https://www.instagram.com/parominhaa/" title="Instagram"
+                                style="font-size: 30px; text-decoration: none; color:rgb(252, 186, 208)">
+                                <i class="fa fa-instagram m010200" aria-hidden="true"></i>Instagram
+                            </a>
+                        </div>
+                        <div class="tleft mgt25">
+                            <a target="_blank" href="https://github.com/parominha" title="GitHub"
+                                style="font-size: 30px; text-decoration: none; color:rgb(252, 186, 208)">
+                                <i class="fa fa-github m010200" aria-hidden="true"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+    }
+}
+
+@media (min-width: 576px){
+}
